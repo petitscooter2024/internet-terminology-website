@@ -1,0 +1,143 @@
+body {
+    background-color: #fff8f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #5c4033;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    color: #8b4513;
+}
+
+.highlight {
+    color: #d2691e;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+
+.toplinks {
+    background-color: #8b4513;
+    overflow: hidden;
+}
+
+.toplinks a {
+    float: left;
+    color: #fff8f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.toplinks a:hover {
+    background-color: #f4d7c5;
+    color: #5c4033;
+}
+
+/* Banner */
+
+.banner {
+    background-color: #f4d7c5;
+    color: #5c4033;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Layout */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    border-right: 1px solid #d2b48c;
+    background-color: #fffdfb;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background-color: #fdf1e7;
+}
+
+/* Gallery Images */
+
+.proj_img {
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 900px) {
+
+    .content,
+    .sidebar,
+    .proj_img {
+        width: 100%;
+        float: none;
+        border-right: none;
+    }
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: #8b4513;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: smaller;
+}
+
+/* Team Section */
+
+.team_img {
+    overflow: hidden;
+    text-align: center;
+}
+
+.team_img img {
+    width: 200px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.team_member {
+    display: inline-block;
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/* Gallery Images */
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
